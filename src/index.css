@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: radial-gradient(100% 239.75% at 100% 100%, #F1B1F2 0%, #FACDF3 44.04%, #D5FCFF 100%);
+  overflow-x: hidden;
+}
