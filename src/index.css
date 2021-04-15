@@ -6,3 +6,31 @@ body {
   background: radial-gradient(100% 239.75% at 100% 100%, #F1B1F2 0%, #FACDF3 44.04%, #D5FCFF 100%);
   overflow-x: hidden;
 }
+
+.circle {
+  position: absolute;
+  z-index: -1;
+  border-radius: 100%;
+  box-shadow: 2px 8px 12px rgba(46, 54, 68, 0.2);
+}
+
+.c-light-blue {
+  background: radial-gradient(84.49% 84.49% at 50% 15.71%, #FFFFFF 0%, #85ECFB 33.77%, #7EE4F2 65.35%, #59B5C2 100%);  
+}
+
+.c-blue {
+  background: radial-gradient(85.92% 85.92% at 49.99% 14.06%, #C5D2FF 0%, #ACBEFF 0.01%, #98AFFF 10.71%, #0038FF 56.02%, #002FD7 82.06%, #0029B9 100%);
+}
+
+.c-purple {
+  background: radial-gradient(81.48% 81.48% at 50.16% 18.48%, #F9E6FF 0%, 
+  rgba(249, 232, 255, 0.84742) 0.01%, #F6DCFF 0.02%, #EAADFF 20.08%, #B14DD3 80.5%); 
+}
+
+.c-pink {
+  background: radial-gradient(86.99% 86.99% at 50.1% 13%, #FFE4FE 0%, #FFABFC 30.5%, #E576E1 65.4%, #D351CE 100%);
+}
+
+.c-green {
+  background: radial-gradient(84.42% 84.42% at 50.2% 15.56%, #F6FFFA 4.46%, #9AFFC2 28.42%, #60E194 68%, #27C566 98.53%);
+}

@@ -3,8 +3,6 @@ import './css/home.css'
 
 export default function Home(props) {
 
-  // const[test, setTest] = useState("test")
-
   const [search, setSearch] = useState("")
 
   useEffect(() => {

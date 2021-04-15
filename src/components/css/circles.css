@@ -1,0 +1,305 @@
+/* Green top left */
+.c-7 {
+  left: 4%;
+  top: 50px;
+  width: 12vw;
+  height: 12vw;
+  transform: rotate(110deg);
+}
+
+/* Pink top right */
+.c-8 {
+  right: -2%;
+  top: -60px;
+  width: 15vw;
+  height: 15vw;
+  transform: rotate(-140deg);
+}
+
+/* Light blue center */
+.c-9 {
+  right: 30%;
+  top: 280px;
+  width: 15vw;
+  height: 15vw;
+  transform: rotate(-40deg);
+}
+
+/* Big purple bottom left */
+.c-10 {
+  left: -8%;
+  top: 450px;
+  width: 25vw;
+  height: 25vw;
+  transform: rotate(30deg);
+}
+
+/* Green bottom middle */
+.c-11 {
+  right: 20%;
+  top: 600px;
+  width: 7vw;
+  height: 7vw;
+  transform: rotate(-10deg);
+}
+
+/* Blue bottom right */
+.c-12 {
+  right: 40%;
+  top: 760px;
+  width: 10vw;
+  height: 10vw;
+  transform: rotate(-5deg);
+}
+
+/* Big pink bottom left */
+.c-13 {
+  left: 20%;
+  top: 950px;
+  width: 20vw;
+  height: 20vw;
+  transform: rotate(10deg);
+}
+
+/* Purple bottom left */
+.c-14 {
+  left: 15%;
+  top: 1300px;
+  width: 8vw;
+  height: 8vw;
+  transform: rotate(10deg);
+}
+
+/* Big light blue bottom right */
+.c-15 {
+  right: -10%;
+  top: 1200px;
+  width: 30vw;
+  height: 30vw;
+  transform: rotate(-20deg);
+}
+
+/* Green bottom middle */
+.c-16 {
+  left: 30%;
+  top: 1550px;
+  width: 15vw;
+  height: 15vw;
+  transform: rotate(5deg);
+}
+
+/* Purple bottom right */
+.c-17 {
+  right: 15%;
+  top: 1600px;
+  width: 10vw;
+  height: 10vw;
+  transform: rotate(-5deg);
+}
+
+/* Big blue bottom left */
+.c-18 {
+  left: -4%;
+  top: 1750px;
+  width: 23vw;
+  height: 23vw;
+  transform: rotate(10deg);
+}
+
+/* Small light blue bottom right */
+.c-19 {
+  right: 10%;
+  top: 1850px;
+  width: 12vw;
+  height: 12vw;
+  transform: rotate(-8deg);
+}
+
+/* Medium purple bottom middle */
+.c-20 {
+  right: 50%;
+  top: 2050px;
+  width: 17vw;
+  height: 17vw;
+  transform: rotate(4deg);
+}
+
+/* Small pink bottom right */
+.c-21 {
+  right: 5%;
+  top: 2250px;
+  width: 10vw;
+  height: 10vw;
+  transform: rotate(-5deg);
+}
+
+/* Medium blue bottom left */
+.c-22 {
+  left: 15%;
+  top: 2450px;
+  width: 15vw;
+  height: 15vw;
+  transform: rotate(8deg);
+}
+
+/* Big light blue bottom middle */
+.c-23 {
+  left: 55%;
+  top: 2600px;
+  width: 23vw;
+  height: 23vw;
+  transform: rotate(-5deg);
+}
+
+/* Big pink bottom left */
+.c-24 {
+  left: -10%;
+  top: 2800px;
+  width: 30vw;
+  height: 30vw;
+  transform: rotate(10deg);
+}
+
+/* Small blue bottom middle */
+.c-25 {
+  left: 50%;
+  top: 2900px;
+  width: 12vw;
+  height: 12vw;
+  transform: rotate(-4deg);
+}
+
+/* Small pink bottom right */
+.c-26 {
+  right: 10%;
+  top: 2975px;
+  width: 8vw;
+  height: 8vw;
+  transform: rotate(-8deg);
+}
+
+/* Big purple bottom middle */
+.c-27 {
+  right: 50%;
+  top: 3075px;
+  width: 25vw;
+  height: 25vw;
+  transform: rotate(4deg);
+}
+
+/* Medium green bottom right */
+.c-28 {
+  right: -2%;
+  top: 3250px;
+  width: 18vw;
+  height: 18vw;
+  transform: rotate(-8deg);
+}
+
+/* Big blue bottom left */
+.c-29 {
+  left: 5%;
+  top: 3450px;
+  width: 29vw;
+  height: 29vw;
+  transform: rotate(6deg);
+}
+
+/* Small purple bottom right */
+.c-30 {
+  right: 20%;
+  top: 3475px; 
+  width: 8vw;
+  height: 8vw;
+  transform: rotate(-6deg);
+}
+
+/* Big pink bottom right */
+.c-31 {
+  right: -1%;
+  top: 3650px;
+  width: 31vw;
+  height: 31vw;
+  transform: rotate(-6deg);
+}
+
+/* Big green bottom left */
+.c-32 {
+  left: 5%;
+  top: 3875px;
+  width: 26vw;
+  height: 26vw;
+  transform: rotate(4deg);
+}
+
+/* Small light blue bottom middle */
+.c-33 {
+  left: 55%;
+  top: 3950px;
+  width: 8vw;
+  height: 8vw;
+  transform: rotate(-2deg);
+}
+
+/* Small blue bottom left */
+.c-34 {
+  left: 15%;
+  top: 4100px;
+  width: 8vw;
+  height: 8vw;
+  transform: rotate(4deg);
+}
+
+/* Big purple bottom middle */
+.c-35 {
+  right: 30%;
+  top: 4150px; 
+  width: 27vw;
+  height: 27vw;
+  transform: rotate(-2deg);
+}
+
+/* Big light blue bottom right */
+.c-36 {
+  right: -5%;
+  top: 4300px;
+  width: 30vw;
+  height: 30vw;
+  transform: rotate(-6deg);
+}
+
+/* Small pink bottom left */
+.c-37 {
+  left: 8%;
+  top: 4400px;
+  width: 12vw;
+  height: 12vw;
+  transform: rotate(6deg);
+}
+
+/* Medium green bottom middle */
+.c-38 {
+  left: 40%;
+  top: 4550px;
+  width: 22vw;
+  height: 22vw;
+  transform: rotate(2deg);
+}
+
+/* Small purple bottom left */
+.c-39 {
+  left: 10%;
+  top: 4650px; 
+  width: 7vw;
+  height: 7vw;
+  transform: rotate(4deg);
+}
+
+/* Medium blue bottom right */
+.c-40 {
+  right: 2%;
+  top: 4700px;
+  width: 25vw;
+  height: 25vw;
+  transform: rotate(4deg);
+}

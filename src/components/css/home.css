@@ -32,6 +32,7 @@
   width: 11vw;
   height: 11vw;
   border-radius: 100%;
+  box-shadow: 2px 8px 12px rgba(46, 54, 68, 0.2);
   transform: rotate(120deg);
 }
 
@@ -45,8 +46,8 @@
   width: 23vw;
   height: 23vw;
   border-radius: 100%;
+  box-shadow: 2px 8px 12px rgba(46, 54, 68, 0.2);
   transform: rotate(-136deg);
-  overflow: hidden;
 }
 
 /* Dark blue small */
@@ -59,6 +60,7 @@
   width: 7vw;
   height: 7vw;
   border-radius: 100%;
+  box-shadow: 2px 8px 12px rgba(46, 54, 68, 0.2);
   transform: rotate(60deg); 
 }
 
@@ -72,6 +74,7 @@
   width: 13vw;
   height: 13vw;
   border-radius: 100%;
+  box-shadow: 2px 8px 12px rgba(46, 54, 68, 0.2);
   transform: rotate(65deg); 
 }
 
@@ -85,6 +88,7 @@
   width: 22vw;
   height: 22vw;
   border-radius: 100%;
+  box-shadow: 2px 8px 12px rgba(46, 54, 68, 0.2);
   transform: rotate(20deg); 
 }
 
@@ -99,5 +103,6 @@
   width: 16vw;
   height: 16vw;
   border-radius: 100%;
+  box-shadow: 2px 8px 12px rgba(46, 54, 68, 0.2);
   transform: rotate(-65deg); 
 }
