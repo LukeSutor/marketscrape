@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { BrowserRouter, Route, Redirect } from 'react-router-dom'
+import { BrowserRouter, Route } from 'react-router-dom'
 import Home from './components/Home';
 import SearchResults from './components/SearchResults';
 
@@ -14,7 +14,7 @@ function App() {
 
   const [ebayJSON, setEbayJSON] = useState("")
 
-  const [loading, setLoading] = useState(false)
+  const [loading, setLoading] = useState(true)
 
   function changeSearch(childSearch) {
     setSearch(childSearch)
@@ -72,11 +72,8 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Route exact path='/' render={props => <Home {...props} changeSearch={changeSearch} />} />
-        <Route path='/search/:search' render={props => <SearchResults {...props} loading={loading} amazonJSON={amazonJSON} 
+        <Route path='/search/:search' render={props => <SearchResults {...props} changeSearch={changeSearch} loading={loading} amazonJSON={amazonJSON} 
         walmartJSON={walmartJSON} ebayJSON={ebayJSON} />} />
-        <Route path='*'>
-          <Redirect to='/'/>
-        </Route>
       </BrowserRouter>
     </div>
   );

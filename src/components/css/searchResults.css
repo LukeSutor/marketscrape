@@ -4,13 +4,23 @@
 
 /* Glassmorphism style */
 .listings-container {
-  background: rgba(255, 255, 255, 0.3);
-  border-radius: 1em;
-  backdrop-filter: blur(4px);
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
-  box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 2em;
+  backdrop-filter: blur(2px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.08);
+  padding: 1.5em;
+  margin-bottom: 4em;
 }
 
-.listings-container:hover {
+.listings {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 1.5em;
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.05);
+}
+
+.listings:hover {
   box-shadow: 0 0 20px rgba(68, 241, 91, 0.5);
 }

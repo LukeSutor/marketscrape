@@ -14,10 +14,11 @@
 .container {
   background: rgba(255, 255, 255, 0.2);
   border-radius: 1.5em;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
   backdrop-filter: blur(4px);
-  border: solid 2px transparent;
-  background-clip: padding-box;
-  box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.08);
 }
 
 /* Circles */
@@ -26,8 +27,8 @@
 .circle1 { 
   position: fixed;
   z-index: -1;
-  left: 1em;
-  top: 1em;
+  left: 3%;
+  top: 5%;
   background: radial-gradient(84.49% 84.49% at 50% 15.71%, #FFFFFF 0%, #85ECFB 33.77%, #7EE4F2 65.35%, #59B5C2 100%);  
   width: 11vw;
   height: 11vw;
@@ -40,8 +41,8 @@
 .circle2 {
   position: fixed;
   z-index: -1;
-  right: 3em;
-  top: -5em;
+  right: 5%;
+  top: -10%;
   background: radial-gradient(85.92% 85.92% at 49.99% 14.06%, #C5D2FF 0%, #ACBEFF 0.01%, #98AFFF 10.71%, #0038FF 56.02%, #002FD7 82.06%, #0029B9 100%);
   width: 23vw;
   height: 23vw;
@@ -54,7 +55,7 @@
 .circle3 {
   position: fixed;
   z-index: -1;
-  left: 12em;
+  left: 15%;
   top: 50%;
   background: radial-gradient(85.92% 85.92% at 49.99% 14.06%, #C5D2FF 0%, #ACBEFF 0.01%, #98AFFF 10.71%, #0038FF 56.02%, #002FD7 82.06%, #0029B9 100%);
   width: 7vw;
@@ -68,8 +69,8 @@
 .circle4 {
   position: fixed;
   z-index: -1;
-  left: -2em;
-  bottom: -1em;
+  left: -2%;
+  bottom: -1%;
   background: radial-gradient(84.42% 84.42% at 50.2% 15.56%, #F6FFFA 4.46%, #9AFFC2 28.42%, #60E194 68%, #27C566 98.53%);
   width: 13vw;
   height: 13vw;
@@ -83,7 +84,7 @@
   position: fixed;
   z-index: -1;
   left: 30%;
-  bottom: -6em;
+  bottom: -10%;
   background: radial-gradient(86.99% 86.99% at 50.1% 13%, #FFE4FE 0%, #FFABFC 30.5%, #E576E1 65.4%, #D351CE 100%);
   width: 22vw;
   height: 22vw;
@@ -96,8 +97,8 @@
 .circle6 {
   position: fixed;
   z-index: -1;
-  right: 2em;
-  bottom: 1em;
+  right: 1%;
+  bottom: 1%;
   background: radial-gradient(81.48% 81.48% at 50.16% 18.48%, #F9E6FF 0%, 
             rgba(249, 232, 255, 0.84742) 0.01%, #F6DCFF 0.02%, #EAADFF 20.08%, #B14DD3 80.5%);
   width: 16vw;
