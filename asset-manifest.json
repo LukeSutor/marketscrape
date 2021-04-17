@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/marketscrape/static/css/main.a2b9913c.chunk.css",
+    "main.js": "/marketscrape/static/js/main.09c791c5.chunk.js",
+    "main.js.map": "/marketscrape/static/js/main.09c791c5.chunk.js.map",
+    "runtime-main.js": "/marketscrape/static/js/runtime-main.eefd264a.js",
+    "runtime-main.js.map": "/marketscrape/static/js/runtime-main.eefd264a.js.map",
+    "static/js/2.8ec07d75.chunk.js": "/marketscrape/static/js/2.8ec07d75.chunk.js",
+    "static/js/2.8ec07d75.chunk.js.map": "/marketscrape/static/js/2.8ec07d75.chunk.js.map",
+    "static/js/3.b3c1b1b6.chunk.js": "/marketscrape/static/js/3.b3c1b1b6.chunk.js",
+    "static/js/3.b3c1b1b6.chunk.js.map": "/marketscrape/static/js/3.b3c1b1b6.chunk.js.map",
+    "index.html": "/marketscrape/index.html",
+    "static/css/main.a2b9913c.chunk.css.map": "/marketscrape/static/css/main.a2b9913c.chunk.css.map",
+    "static/js/2.8ec07d75.chunk.js.LICENSE.txt": "/marketscrape/static/js/2.8ec07d75.chunk.js.LICENSE.txt",
+    "static/media/amazon_logo.05070cca.png": "/marketscrape/static/media/amazon_logo.05070cca.png",
+    "static/media/ebay_logo.719f669f.png": "/marketscrape/static/media/ebay_logo.719f669f.png",
+    "static/media/walmart_logo.80f30a49.png": "/marketscrape/static/media/walmart_logo.80f30a49.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eefd264a.js",
+    "static/js/2.8ec07d75.chunk.js",
+    "static/css/main.a2b9913c.chunk.css",
+    "static/js/main.09c791c5.chunk.js"
+  ]
+}
