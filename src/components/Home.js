@@ -16,18 +16,16 @@ export default function Home(props) {
   }
 
   return (
-    <div id="home" className="overflow-auto">
+    <div id="home" className="h-screen w-screen overflow-y-hidden">
 
       {/* Circles */}
-      <div className="circle1" />
-      <div className="circle2" />
-      <div className="circle3" />
-      <div className="circle4" />
-      <div className="circle5" />
-      <div className="circle6" />
+      <div className="circle c-light-blue c-1" />
+      <div className="circle c-blue c-2" />
+      <div className="circle c-purple c-3" />
+      <div className="circle c-green c-4" />
+      <div className="circle c-pink c-5" />
 
-
-      <div className="container absolute left-1/2 top-1/2 flex items-center justify-center w-min px-8 md:px-28 lg:px-36 text-center transform -translate-x-1/2 -translate-y-1/2">
+      <div className="container absolute left-1/2 top-1/2 flex items-center justify-center w-11/12 md:w-2/3 lg:w-3/5 text-center transform -translate-x-1/2 -translate-y-1/2">
         <div>
           <h1 className="text-3xl md:text-5xl lg:text-7xl font-light">Marketscrape</h1>
           <p className="pt-4 pb-12 text-xs md:text-lg lg:text-xl text-gray-500 whitespace-nowrap">Easily search the most popular online marketplaces <br /> to ensure you're getting the best deal.</p>
