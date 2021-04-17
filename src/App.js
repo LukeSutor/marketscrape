@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { BrowserRouter, Route } from 'react-router-dom'
+import { HashRouter, Route } from 'react-router-dom'
 import Home from './components/Home';
 import SearchResults from './components/SearchResults';
 
@@ -70,11 +70,11 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter basename='/'>
         <Route exact path='/' render={props => <Home {...props} changeSearch={changeSearch} />} />
         <Route path='/search/:search' render={props => <SearchResults {...props} changeSearch={changeSearch} loading={loading} amazonJSON={amazonJSON} 
         walmartJSON={walmartJSON} ebayJSON={ebayJSON} />} />
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
