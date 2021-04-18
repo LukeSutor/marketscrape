@@ -32,7 +32,7 @@ export default function SearchResults(props) {
       {/* Background circles */}
       <Circles divHeight={divHeight} />
 
-      <h1 className="flex mb-12 text-2xl md:text-4xl lg:text-5xl font-light">Search results for {search} {props.loading && loadingSpinner()}</h1>
+      <h1 className="flex mb-12 text-xl md:text-4xl lg:text-5xl font-light whitespace-nowrap">Search results for {search} {props.loading && loadingSpinner()}</h1>
 
       {/* Ebay listings */}
       {(!props.loading || props.ebayJSON !== "") &&

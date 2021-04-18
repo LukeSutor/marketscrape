@@ -16,7 +16,7 @@ export default function Home(props) {
   }
 
   return (
-    <div id="home" className="h-screen w-screen overflow-y-hidden">
+    <div id="home">
 
       {/* Circles */}
       <div className="circle c-light-blue c-1" />

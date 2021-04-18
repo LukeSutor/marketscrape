@@ -1,7 +1,8 @@
 #home {
-  width: 100vw;
+  position: relative;
+  overflow: hidden;
   height: 100vh;
-  overflow-y: hidden;
+  width: 100vw;
 }
 
 #search-button {
@@ -54,10 +55,10 @@
 /* Green */
 .c-4 {
   left: -2%;
-  bottom: 4.9%;
+  bottom: -3%;
   width: 13vw;
   height: 13vw;
-  transform: rotate(65deg); 
+  transform: rotate(60deg); 
 }
 
 /* Pink */
